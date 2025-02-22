@@ -57,7 +57,6 @@ def IBM_chat (messages):
     	raise Exception("Non-200 response: " + str(response.text))
     
     response = response.json()
-    st.json(response)
     return response["choices"][0]["message"]["content"]
 
 
