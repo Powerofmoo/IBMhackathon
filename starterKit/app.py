@@ -88,7 +88,7 @@ if user_input:
     st.chat_message("user").markdown(user_input)
     st.session_state.messages.append({"role": "user", "content": user_input})
 
-    # Get response from OpenAI
+    # Get response from IBM
     with st.spinner("Thinking..."):
         assistant_reply = IBM_chat(st.session_state.messages)
     
