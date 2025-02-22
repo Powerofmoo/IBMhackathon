@@ -38,7 +38,7 @@ def IBM_chat (messages):
         "model_id": "ibm/granite-3-8b-instruct",
         "project_id": IBM_PROJECT_ID,
         "messages": messages,
-        "max_tokens": 100,
+        "max_tokens": 2000,
         "temperature": 0.7,
         "time_limit": 5000
     }
